@@ -11,3 +11,12 @@ https://archana2420.github.io/Task-3.html
 
 ## Task-4
 https://archana2420.github.io/Task-4.html
+
+## Task-5
+https://archana2420.github.io/Task-5.html
+
+## Task-6
+https://archana2420.github.io/Task-6.html
+
+## Task-7
+https://archana2420.github.io/Task-7.html

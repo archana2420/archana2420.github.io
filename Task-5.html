@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link to an Email Address</title>
+    <style>
+        .email{
+            border:2px solid black;
+            padding: 10px;
+            width:50%;
+        }
+        .navbar{
+            border:2px solid black;
+            margin-top: 10px;
+            padding: 10px;
+            width:fit-content;
+            
+        }
+        nav{
+            background-color: grey;
+            color: blue;
+        }
+        ul{
+            display:flex;
+            padding: 0;
+        }
+        li{
+            padding: 1rem;
+            list-style-type: none;
+        }
+        li:hover{
+            background-color: rgb(84, 82, 82);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="email">
+        <h2>Link to an Email Address</h2>
+        <p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the attribute:</p>
+        <a href="mailto:user@gmail.com">Send email</a>
+    </div>
+    <div class="navbar">
+        <h2>Horizontal Navigation Bar</h2>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Java</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>Bootstrap</li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Archana's Github Pages
 
-## Task-1(https://archana2420.github.io/Task-1.html)
+[Task-1](https://archana2420.github.io/Task-1.html)
 
 ## Task-2
 https://archana2420.github.io/Task-2.html

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+        }
+        .first{
+            font-size: 1.2rem;
+            width:25%;
+            height: 100vh;
+            padding: 20px;
+            background-color: rgb(147, 211, 73);
+        }
+        .second{
+            width:75%;
+            height: 100vh;
+            padding: 20px;
+            background-color: rgb(147, 211, 73);
+            color: rgb(178, 40, 86);
+        }
+        .each-part{
+            background-color: white;
+            border-right: 30px solid black;
+            margin:10px;
+            padding: 10px;
+            color: blue;
+            font-weight: bold;
+        }
+        .active{
+            color: magenta;
+        }
+        .heading-one{
+            font-size: 3rem;
+            
+        }
+        hr{
+            color: rgb(178, 40, 86);
+            border:1px solid  ;
+        }
+        .second-one,
+        .second-second{
+            font-size: 1.5rem;
+            
+        }
+        .second p{
+            margin-block: 15px;
+        }
+        .second-second{
+            font-style: italic;
+            line-height: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first">
+            <div class="each-part"><a class="active">Home page</a></div>
+            <div class="each-part"><a>Musings</a></div>
+            <div class="each-part"><a>My town</a></div>
+            <div class="each-part"><a>Links</a></div>
+        </div>
+        <div class="second">
+            <h1 class="heading-one">My first styled page</h1>
+            <div class="second-one">
+                <p>Welcome to my styled page! </p>
+                <p>It lacks images, but at least it has style . And it has<br> links, even if they don't go anywhere..</p>
+                <p>There should be more here, but i don't know what yet.</p>
+            </div>
+            <hr>
+            <div class="second-second">
+                <p>Made 5 April 2004</p>
+                <p>by myself</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

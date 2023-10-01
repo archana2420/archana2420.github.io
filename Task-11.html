@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile{
+            width:35%;
+            height:100vh;
+            
+            /* background-color: blanchedalmond; */
+        }
+        .form-details{
+            /* display: flex;
+            justify-content: center;
+            flex-wrap: nowrap; */
+            row-gap: 10px;
+        }
+        .profile-pic{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+        .profile-pic img{
+            width: 50%;
+            height: 50%;
+            /* background-color: mediumorchid; */
+        }
+        .form-inputs,
+        .flex-container{
+            margin-block:10px;
+        }
+        .form-inputs label{
+            font-weight: bold;
+            margin-block: 12px;
+        }
+        .form-inputs input{
+            width: 100%;
+            padding: 5px;
+        }
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .cancel-btn{
+            background-color: red;
+            border: red;
+            color: white;
+            padding-block: 5px;
+            padding-inline: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .login-btn{
+            background-color: green;
+            border: green;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            width:522px !important;
+            
+        }
+        .checked{
+            accent-color: blue;
+            cursor: pointer;
+        }
+        p{
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div class="profile-pic">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="profile-pic">
+            </div>
+            <div class="form-details">
+                <div class="form-inputs">
+                    <label for="">Username</label>
+                    <br>
+                    <input type="email" name="" id="" placeholder="Enter Username">
+                </div>
+               <div class="form-inputs" >
+                <label for="">Password</label>
+                <br>
+                <input type="password" name="" id="" placeholder="Enter Password">
+               </div>
+               <div class="form-inputs" >
+                <input type="submit" style="display: block;" value="Login" id="" class="login-btn"  >
+               </div>
+               <div class="">
+                <input type="checkbox" class="checked" name="remember-me-checkbox" id="remember-me-checkbox" checked>
+                <label for="remember-me-checkbox" >Remember me</label>
+               </div>
+               <div class="flex-container">
+                <button  class="cancel-btn">Cancel</button>
+                <p>Forgot password?</p>
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

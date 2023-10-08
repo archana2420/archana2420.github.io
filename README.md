@@ -21,3 +21,7 @@
 [Task-10](https://archana2420.github.io/Task-10.html)
 
 [Task-11](https://archana2420.github.io/Task-11.html)
+
+[Task-12](https://archana2420.github.io/Task-12.html)
+
+[Task-13](https://archana2420.github.io/Task-13.html)

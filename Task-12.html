@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .outer-container{
+            background-color: rgb(27, 154, 27);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 94vh;
+            padding-top: 50px;
+        }
+        h1,h2{
+            font-weight: bold;
+            font-style: italic;
+            
+        }
+        h2{
+            text-align: left;
+        }
+        .inner-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container{
+            background-color: white;
+            width:500px;
+            height:300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        table{
+            border-spacing: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="outer-container">
+        <h1>Place an Order</h1>
+        <div class="inner-container">
+           
+            
+            <div class="container">
+                <h2>Billing  Address</h2>
+                <table cellspacing="5px" >
+                    <tr>
+                        <td>
+                            <label for="">First name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Last name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Street Address</label>
+                        </td>
+                        <td>
+                            <input type="text" name="" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">City</label>
+                        </td>
+                        <td>
+                            <input type="text" name="" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">State</label>
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
